@@ -1,0 +1,52 @@
+body{
+    background-color: #424242;
+    color:#fff;
+}
+#clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+#clock h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+.clock-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+  .clock-items{
+      width: 32%;
+      background-color: #fff;
+      color:#000;
+      border-radius: 10px;
+      text-align: center;
+      margin-right: 3%;
+      padding-top:30px;
+      padding-bottom: 30px;
+      font-size: 70px;
+      letter-spacing: 5px;
+      font-family: 'Orbitron', sans-serif;
+
+
+  }
+  .clock-items p{
+      margin:0;
+      padding:0;
+      border-radius: 5px;;
+  }
+  p{
+      text-align: center;
+  }
+  #date{
+      font-size: 20px;
+      font-family: 'Bebas Neue', cursive;
+  }
+  
+  
