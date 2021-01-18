@@ -13,6 +13,7 @@ Live demo: http://example.damlakayali.net/bmi/
 
 ![](https://github.com/damlakayali/js-basic-example/blob/main/images/bmi.gif?raw=true)
 
+
 ## 3. Guessing Number Game
 
 Live demo: http://example.damlakayali.net/guessing-number
