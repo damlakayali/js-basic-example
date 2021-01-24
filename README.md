@@ -3,6 +3,8 @@
 
 Includes basic javascript implementation examples.
 
+Videos of the examples are on YouTube : https://www.youtube.com/watch?v=_ZUqIzmxo_w&list=PLH1O2DOQncOnwrzwD_TEJOZkWSLgH6PRu&ab_channel=DamlaKayali
+
 ## 1.Digital Clock
 Live demo: http://example.damlakayali.net/digital-clock
 
