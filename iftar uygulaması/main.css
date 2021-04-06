@@ -1,0 +1,42 @@
+.bg{
+    background-color: #281e66;
+}
+.location-icon{
+    color:#FFF;
+    text-align: right;
+    margin-top:20px;
+}
+.location-icon i{
+    font-size:30px;
+}
+p{
+    color:#fff;
+    text-align: center;
+}
+#current-time{
+    font-size: 80px;
+    margin-bottom: 60px;
+}
+
+.location-icon p{
+    margin:0px;
+    padding: 0px;
+}
+.location p:nth-child(2){
+    font-size: 60px;
+    margin-top:-20px;
+}
+
+.location p:nth-child(3){
+    margin-top:-20px;
+}
+
+.time-lef-text{
+    font-size: 35px;
+}
+
+#time-left{
+    font-size: 35px;
+    margin-top:-25px;
+    margin-bottom: 50px;
+}

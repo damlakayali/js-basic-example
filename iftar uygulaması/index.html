@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İftar Uygulaması</title>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/f0b82e9e29.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 location-icon">
+                <i class="fas fa-map-marker-alt" data-toggle="modal" data-target="#locationModal"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p id="current-time">14:32</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 location">
+                <p id="country">TÜRKİYE</p>
+                <p id="city">İSTANBUL</p>
+                <p id="county">Çekmeköy</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="time-left-text">İFTARA KALAN SÜRE</p>
+                <p id="time-left">08:10:55</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p id="imsak">İMSAK 05:40</p>
+                <p id="gunes">GÜNEŞ 05:40</p>
+                <p id="ogle">ÖĞLE 05:40</p>
+                <p id="ikindi">İKİNDİ 05:40</p>
+                <p id="aksam">AKŞAM 05:40</p>
+                <p id="yatsi">YATSI 05:40</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" tabindex="-1" id="locationModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Lokasyon Değiştirme</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label>ÜLKE</label>
+                          <select class="form-control" id="countries" onchange="ChangeCountry();">
+                              <option>1</option>
+                              <option>2</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                        <label>ŞEHİR</label>
+                        <select class="form-control" id="cities" onchange="ChangeCity();">
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>İLÇE</label>
+                        <select class="form-control" id="counties">
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+              <button type="button" class="btn btn-primary" onclick="ChangeLocation();">Kaydet</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="/main.js"></script>
+</html>

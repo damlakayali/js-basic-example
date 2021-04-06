@@ -1,0 +1,31 @@
+
+/* STYLE */
+body{
+    background-color: orange;
+}
+
+#box{
+
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+
+}
+#box p{
+    color:black;
+}
+.content{
+    background-color:white;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 15px 0 15px 0;
+    padding: 50px;   
+}
+
+.button-group{
+    text-align: right;
+    margin-top:10px;
+}
+
