@@ -1,0 +1,87 @@
+#popular-brand-category-container .popularBrands {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #d4d4d4;
+  padding: 30px 0;
+  color: #333;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper {
+  width: 1080px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories {
+  width: 45%;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__brands__content,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__brands__content,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__categories__content,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__categories__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__brands__content li,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__brands__content li,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__categories__content li,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__categories__content li {
+  flex: 0 26%;
+  margin: 3px 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__brands__content li a:hover,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__brands__content li a:hover,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__categories__content li a:hover,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__categories__content li a:hover {
+  text-decoration: underline;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__brands__content:after,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__brands__content:after,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__categories__content:after,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__categories__content:after {
+  content: "";
+  flex: 0 26%;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__brands__head,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__brands__head,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__categories__head,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__categories__head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__brands__head p,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__brands__head p,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__categories__head p,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__categories__head p {
+  position: relative;
+  font-size: 22px;
+  margin: 10px 0 20px;
+  color: #333;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__brands__head a,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__brands__head a,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__categories__head a,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__categories__head a {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+}
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__brands__head a:hover,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__brands__head a:hover,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__brands .popularBrands__wrapper__categories__head a:hover,
+#popular-brand-category-container .popularBrands .popularBrands__wrapper .popularBrands__wrapper__categories .popularBrands__wrapper__categories__head a:hover {
+  cursor: pointer;
+  color: #f27a1a;
+}
+

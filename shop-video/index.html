@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+
+    <link rel="stylesheet" href="/main.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/f0b82e9e29.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11">
+                <h2 onclick="GetShoppingCartPage();">Shopping Cart</h2>
+            </div>
+            <div class="col-md-1">
+                <i class="fas fa-shopping-cart shopping-cart" onclick="GetDetailPage();"></i>
+                <span class="badge badge-pill badge-success shop-badge" id="cart-count" >0</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+              
+                <div class="main-box">
+                    <div class="alert alert-success" role="alert" id="success-alert">
+                       Add Product Successful.
+                      </div>
+                    <div class="box">
+                        <img src="/images/macbook-pro.jpeg" width="230px" height="200">
+                        <p class="product-name" id="p-name-1"> MacBook Pro</p>
+                        <p class="product-price" id="p-price-1" name="14000">14300 TL</p>
+                        <input type="number" id="p-count-1" class="product-count" id="product-count-1" value="1">
+                        <button class="btn btn-cart" name="1" >Add Cart</button>
+                    </div>
+                    <div class="box">
+                        <img src="/images/iphone.jpeg" width="170px" height="200">
+                        <p class="product-name" id="p-name-2"> iPhone 12</p>
+                        <p class="product-price" id="p-price-2" value="10000">10000 TL</p>
+                        <input type="number" id="p-count-2" class="product-count" id="product-count-1" value="1">
+                        <button class="btn btn-cart" name="2">Add Cart</button>
+                    </div>
+                    <div class="box">
+                        <img src="/images/ipad.jpeg" width="170px" height="200">
+                        <p class="product-name" id="p-name-3"> iPad Pro</p>
+                        <p class="product-price" id="p-price-3" value="8600">8600 TL</p>
+                        <input type="number" id="p-count-3" class="product-count" id="product-count-1" value="1">
+                        <button class="btn btn-cart" name="3">Add Cart</button>
+                    </div>
+                    <div class="box">
+                        <img src="/images/apple-watch.jpeg" width="220px" height="200">
+                        <p class="product-name" id="p-name-4"> Apple Watch</p>
+                        <p class="product-price" id="p-price-4" value="3800">3800 TL</p>
+                        <input type="number" id="p-count-4" class="product-count" id="product-count-1" value="1">
+                        <button class="btn btn-cart" name="4">Add Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+
+        
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="/main.js"></script>
+</html>

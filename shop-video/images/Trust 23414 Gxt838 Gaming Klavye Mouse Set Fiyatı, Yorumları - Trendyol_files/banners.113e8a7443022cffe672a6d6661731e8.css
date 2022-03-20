@@ -1,0 +1,304 @@
+.banner-default-placeholder {
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 35px 25px 35px;
+  border: 1px solid #ebebeb;
+  margin-bottom: 15px;
+}
+.banner-default-placeholder .placeholder-content {
+  background: #fff;
+  width: 240px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-default-placeholder .placeholder-content .placeholder-head1 {
+  background: #F6F6F6;
+  height: 20px;
+  width: 140px;
+  margin-top: 40px;
+}
+.banner-default-placeholder .placeholder-content .placeholder-head2 {
+  background: #E8E8E8;
+  height: 10px;
+  width: 180px;
+  margin-top: 12px;
+}
+.banner-default-placeholder .placeholder-content .placeholder-line1 {
+  background: #e8e8e8;
+  height: 2px;
+  width: 170px;
+  margin-top: 42px;
+}
+.banner-default-placeholder .placeholder-content .placeholder-line2 {
+  background: #e8e8e8;
+  height: 2px;
+  width: 190px;
+  margin-top: 7px;
+}
+.banner-default-placeholder .placeholder-content .placeholder-line3 {
+  background: #e8e8e8;
+  height: 2px;
+  width: 110px;
+  margin-top: 7px;
+}
+.banner-default-placeholder .placeholder-button {
+  background: #e8e8e8;
+  width: 135px;
+  height: 30px;
+  margin-top: 30px;
+}
+.banner-spin-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+.banner-spin-wrapper .spin-container {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  overflow: hidden;
+}
+@keyframes spin-loader {
+  0% {
+    opacity: 1;
+    backface-visibility: hidden;
+    transform: translateZ(0) scale(1.5, 1.5);
+  }
+  100% {
+    opacity: 0;
+    backface-visibility: hidden;
+    transform: translateZ(0) scale(1, 1);
+  }
+}
+.banner-spin-wrapper .spin-loader div > div {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #f27a1a;
+  animation: spin-loader 1s linear infinite;
+}
+.banner-spin-wrapper .spin-loader div:nth-child(1) > div {
+  left: 75px;
+  top: 45px;
+  animation-delay: -0.875s;
+}
+.banner-spin-wrapper .spin-loader > div:nth-child(1) {
+  transform: rotate(0deg);
+  transform-origin: 80px 50px;
+}
+.banner-spin-wrapper .spin-loader div:nth-child(2) > div {
+  left: 66px;
+  top: 66px;
+  animation-delay: -0.75s;
+}
+.banner-spin-wrapper .spin-loader > div:nth-child(2) {
+  transform: rotate(45deg);
+  transform-origin: 71px 71px;
+}
+.banner-spin-wrapper .spin-loader div:nth-child(3) > div {
+  left: 45px;
+  top: 75px;
+  animation-delay: -0.625s;
+}
+.banner-spin-wrapper .spin-loader > div:nth-child(3) {
+  transform: rotate(90deg);
+  transform-origin: 50px 80px;
+}
+.banner-spin-wrapper .spin-loader div:nth-child(4) > div {
+  left: 24px;
+  top: 66px;
+  animation-delay: -0.5s;
+}
+.banner-spin-wrapper .spin-loader > div:nth-child(4) {
+  transform: rotate(135deg);
+  transform-origin: 29px 71px;
+}
+.banner-spin-wrapper .spin-loader div:nth-child(5) > div {
+  left: 15px;
+  top: 45px;
+  animation-delay: -0.375s;
+}
+.banner-spin-wrapper .spin-loader > div:nth-child(5) {
+  transform: rotate(180deg);
+  transform-origin: 20px 50px;
+}
+.banner-spin-wrapper .spin-loader div:nth-child(6) > div {
+  left: 24px;
+  top: 24px;
+  animation-delay: -0.25s;
+}
+.banner-spin-wrapper .spin-loader > div:nth-child(6) {
+  transform: rotate(225deg);
+  transform-origin: 29px 29px;
+}
+.banner-spin-wrapper .spin-loader div:nth-child(7) > div {
+  left: 45px;
+  top: 15px;
+  animation-delay: -0.125s;
+}
+.banner-spin-wrapper .spin-loader > div:nth-child(7) {
+  transform: rotate(270deg);
+  transform-origin: 50px 20px;
+}
+.banner-spin-wrapper .spin-loader div:nth-child(8) > div {
+  left: 66px;
+  top: 24px;
+  animation-delay: 0s;
+}
+.banner-spin-wrapper .spin-loader > div:nth-child(8) {
+  transform: rotate(315deg);
+  transform-origin: 71px 29px;
+}
+.banner-spin-wrapper .spin-loader {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.48);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+.banner-spin-wrapper .spin-loader div {
+  box-sizing: content-box;
+}
+.banner-item .slick-slider {
+  position: relative;
+  width: 100%;
+}
+.banner-item .slick-slider .slick-list {
+  overflow: hidden;
+}
+.banner-item .slick-slider .slick-list .slick-track {
+  display: flex;
+}
+.banner-item .slick-slider .slick-list .slick-track .slick-slide > div > * {
+  display: block !important;
+}
+.banner-item .slick-slider.vertical .slick-track {
+  flex-direction: column;
+}
+.banner-item .slick-slider .slick-arrow {
+  position: absolute;
+  font-size: 0;
+  opacity: 0.6;
+  height: 50px;
+  width: 25px;
+  top: calc(50% - 25px);
+  cursor: pointer;
+  border: 0;
+  background: none;
+  z-index: 100;
+}
+.banner-item .slick-slider .slick-arrow.slick-prev {
+  background: url('https://cdn.dsmcdn.com/web/production/product-detail-slider-prev-arrow.png') center no-repeat;
+}
+.banner-item .slick-slider .slick-arrow.slick-next {
+  background: url('https://cdn.dsmcdn.com/web/production/product-detail-slider-next-arrow.png') center no-repeat;
+  right: 0;
+}
+.banner-item .slick-slider .slick-arrow:hover {
+  opacity: 1;
+}
+.banner-item .slick-slider .slick-arrow.slick-disabled {
+  display: none !important;
+}
+.hero-banner {
+  height: 304px;
+}
+.hero-banner .hero-product a {
+  display: block;
+  height: 304px;
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hero-banner .hero-product a .hero-product-image {
+  width: 123px;
+  position: absolute;
+  top: 54px;
+  left: 26px;
+  z-index: -1;
+}
+.hero-banner .hero-product a .hero-info {
+  position: absolute;
+  width: 150px;
+  top: 105px;
+  text-align: center;
+  color: #ffffff;
+  left: 158px;
+  display: flex;
+  flex-direction: column;
+}
+.hero-banner .hero-product a .hero-info .brand-name {
+  font-size: 17px;
+  line-height: 18px;
+  max-width: 150px;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hero-banner .hero-product a .hero-info .product-name {
+  font-size: 15px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  line-height: 13px;
+  max-width: 150px;
+  margin-left: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+.hero-banner .hero-product a .hero-info .original-price {
+  font-size: 16px;
+  line-height: 15px;
+  text-decoration: line-through;
+}
+.hero-banner .hero-product a .hero-info .selling-price,
+.hero-banner .hero-product a .hero-info .discount-price {
+  font-size: 25px;
+  line-height: 20px;
+  color: #fffc00;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 5px 0;
+  font-weight: bold;
+}
+.hero-banner .hero-product a .hero-info .selling-price-with-dp {
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: line-through;
+  color: #fff;
+  font-weight: bold;
+}
+.banner-wrapper .banner-item {
+  height: 0;
+  overflow: hidden;
+}
+.banner-wrapper .banner-item.loaded {
+  height: auto;
+  margin-bottom: 15px;
+}
+.banner-wrapper .banner-item img {
+  max-width: 100%;
+}
+.banner-wrapper:last-child .banner-item {
+  margin-bottom: 0;
+}
+#browsing-gw-banners #banners-wrapper.active {
+  display: block!important;
+}
+

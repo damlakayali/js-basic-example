@@ -1,0 +1,177 @@
+#footer-container .footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+#footer-container .footer.international_en .footer__wrapper__countrySelect .ty-select,
+#footer-container .footer.international_de .footer__wrapper__countrySelect .ty-select {
+  margin-top: 10px;
+  width: 150px;
+}
+#footer-container .footer.international_en .footer__wrapper--mediumTitle,
+#footer-container .footer.international_de .footer__wrapper--mediumTitle {
+  margin: 0;
+}
+#footer-container .footer.international_en .footer__wrapper__enSocial,
+#footer-container .footer.international_de .footer__wrapper__enSocial,
+#footer-container .footer.international_en .footer__wrapper__deSocial,
+#footer-container .footer.international_de .footer__wrapper__deSocial {
+  margin-top: -20px;
+}
+#footer-container .footer .footer__wrapper {
+  padding-top: 50px;
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  box-sizing: border-box;
+}
+#footer-container .footer .footer__wrapper a {
+  color: white;
+  cursor: pointer;
+}
+#footer-container .footer .footer__wrapper a:hover {
+  text-decoration: underline;
+}
+#footer-container .footer .footer__wrapper ul li {
+  font-size: 13px;
+  color: #fff;
+  margin: 20px 0 0;
+}
+#footer-container .footer .footer__wrapper > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--sectionTitle {
+  font-size: 22px;
+  padding-bottom: 5px;
+  margin: 0 0 20px 0;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--mediumTitle {
+  font-weight: 600;
+  font-size: 16px;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper__apps,
+#footer-container .footer .footer__wrapper .footer__wrapper__socialMedia {
+  height: 100px;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper__apps a,
+#footer-container .footer .footer__wrapper .footer__wrapper__socialMedia a {
+  width: 30px;
+  text-indent: -2000px;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage {
+  text-indent: -1000px;
+  background: url("https://cdn.dsmcdn.com/web/production/social-and-app-iconset.png") no-repeat 0 0;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.app {
+  height: 40px;
+  display: list-item;
+  margin-top: 10px;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.app.app-ios {
+  background-position: -240px 0 !important;
+  width: 155px;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.app.app-android {
+  background-position: -405px 0 !important;
+  width: 155px;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.app.app-huawei {
+  background-position: -570px 0 !important;
+  width: 155px;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.sm {
+  height: 29px;
+  display: inline-block;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.sm.sm-instagram {
+  background-position: -30px 0 !important;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.sm.sm-twitter {
+  background-position: -61px 0 !important;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.sm.sm-youtube {
+  background-position: -92px 0 !important;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.sm.sm-facebook:hover {
+  background-position: 0 -32px !important;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.sm.sm-instagram:hover {
+  background-position: -30px -32px !important;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.sm.sm-twitter:hover {
+  background-position: -61px -32px !important;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper--socialImage.sm.sm-youtube:hover {
+  background-position: -92px -32px !important;
+}
+#footer-container .footer .footer__wrapper .footer__wrapper__secure_payment {
+  height: 100px;
+}
+#footer-container .footer .footer__wrapper .troy-img {
+  background: url("https://cdn.dsmcdn.com/frontend/web/assets/images/troy-logo-transparent.png") no-repeat;
+  display: inline-block;
+  width: 56px;
+  height: 26px;
+  margin-right: 18px;
+  background-size: cover;
+}
+#footer-container .footer .footer__wrapper .security-img {
+  background: url("https://cdn.dsmcdn.com/frontend/web/assets/images/security-icon.png") no-repeat center left;
+  width: 120px;
+  height: 24px;
+  display: inline-block;
+}
+#footer-container .footer .footer__wrapper #footer__wrapper__etbisAndTrustStamp {
+  display: flex;
+  align-items: center;
+}
+#footer-container .footer .footer__wrapper #footer__wrapper__etbisAndTrustStamp a img {
+  width: 83px;
+  height: 93px;
+  margin-right: 30px;
+  padding: 5px;
+  background-color: #fff;
+  display: inline-block;
+}
+#footer-container .footer .footer__wrapper #footer__wrapper__etbisAndTrustStamp #trustStamp {
+  background: url("https://cdn.dsmcdn.com/frontend/web/assets/images/trust-stamp.png") no-repeat;
+  background-size: 50px;
+  height: 50px;
+  display: flex;
+  width: 50px;
+  align-self: center;
+}
+#footer-container .bandInfo {
+  padding: 10px;
+  background: #2d2d2d;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+}
+#footer-container .bandInfo .bandInfo__wrapper {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer-container .bandInfo .bandInfo__wrapper .bandInfo__wrapper__left {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+#footer-container .bandInfo .bandInfo__wrapper .bandInfo__wrapper__right ul li {
+  padding: 0 10px;
+  font-size: 12px;
+  color: #999999;
+  float: right;
+  cursor: pointer;
+}
+#footer-container .bandInfo .bandInfo__wrapper .bandInfo__wrapper__right a {
+  color: white;
+}
+

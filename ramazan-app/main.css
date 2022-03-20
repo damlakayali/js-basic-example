@@ -1,0 +1,57 @@
+.bg{
+    background-color: #281e66;
+ }
+ .location-icon{
+     color:#fff;
+     text-align: right;
+     margin-top: 20px;
+ }
+ .location-icon i{
+     font-size: 30px;
+ }
+ .title-form-input{
+     color: #fff;
+     font-weight: bold;
+ }
+ p{
+     
+     color: #fff;
+     text-align: center;
+ }
+ #current-time{
+     font-size: 80px;
+     margin-bottom: 60px;
+ }
+ .location{
+     margin-bottom: 50px;
+ }
+ .location p{
+     margin:0px;
+     padding: 0px;   
+ }
+ 
+ .location p:nth-child(2){
+    font-size: 60px;  
+    margin-top:-20px; 
+ }
+ .location p:nth-child(3){
+     margin-top:-20px; 
+  }
+ 
+  .time-left-text{
+     font-size: 35px;
+  }
+  #time-left{
+     font-size: 35px;
+     margin-top: -25px;
+     margin-bottom: 50px;
+  }
+ 
+  .form-group label{
+      color:#000;
+  }
+  .location-modal{
+      width: 1050px;
+  }
+ 
+ 

@@ -1,0 +1,72 @@
+.scroll-to-up-none {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+.scroll-to-up {
+  backface-visibility: hidden;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-bottom-width: 2px;
+  bottom: 20px;
+  cursor: pointer;
+  height: 40px;
+  line-height: 42px;
+  margin: 5px;
+  position: fixed;
+  right: 20px;
+  width: 110px;
+  will-change: scroll-position;
+  z-index: 1000;
+  -webkit-transition: opacity 500ms ease-in-out;
+  -moz-transition: opacity 500ms ease-in-out;
+  -ms-transition: opacity 500ms ease-in-out;
+  -o-transition: opacity 500ms ease-in-out;
+  opacity: 1;
+}
+.scroll-to-up:hover {
+  border-color: #f27a1a;
+}
+.scroll-to-up:hover span {
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: linear;
+  color: #f27a1a;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: linear;
+}
+.scroll-to-up:hover i {
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: linear;
+  background-position: 0 -18px;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: linear;
+}
+.scroll-to-up i {
+  display: block;
+  float: left;
+  height: 12px;
+  margin: 14px 0 0 15px;
+  opacity: 0.8;
+  overflow: hidden;
+  width: 12px;
+}
+.scroll-to-up span {
+  color: #666666;
+  float: left;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 7px;
+  text-align: center;
+}
+.scroll-to-up .icon-scroll-to-up-arrow-iconset {
+  background: url("data:image/svg+xml;charset=utf8, %3Csvg width='12' height='30' viewBox='0 0 12 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EPage 1 Copy%3C/title%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M.587 6.284a.66.66 0 0 0 0 .88.529.529 0 0 0 .792 0l4.056-4.462v9.263c0 .343.249.616.561.616.312 0 .568-.273.568-.616V2.702l4.049 4.462a.538.538 0 0 0 .8 0 .66.66 0 0 0 0-.88L6.396.765a.517.517 0 0 0-.792 0L.587 6.284z' fill='%231E201D'/%3E%3Cpath d='M.587 23.284a.66.66 0 0 0 0 .88.529.529 0 0 0 .792 0l4.056-4.462v9.263c0 .343.249.616.561.616.312 0 .568-.273.568-.616v-9.263l4.049 4.462a.538.538 0 0 0 .8 0 .66.66 0 0 0 0-.88l-5.017-5.519a.517.517 0 0 0-.792 0L.587 23.284z' fill='%23F27A1A'/%3E%3C/g%3E%3C/svg%3E") no-repeat;
+}
+
