@@ -1,0 +1,45 @@
+.cal{
+    width: 300px;
+    margin:0 auto;
+    margin-top:200px;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn-custom{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px !important;
+    margin-bottom: 10px;
+}
+.btn-grey{
+    background-color: #ccc !important;
+}
+.btn-yellow{
+    background-color: #fbc02d !important;
+    color:#fff !important;
+}
+.btn-darkgrey{
+    background-color: #424242 !important;
+    color: #fff !important;
+}
+.btn-darkgrey2{
+    width: 130px !important;
+    background-color: #424242 !important;
+    color: #fff !important;
+}
+
+#inputVal{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-align: right;
+    font-size: 50px;
+}
+
+#result{
+    color:#fff;
+    text-align: right;
+    font-size:50px;
+}
